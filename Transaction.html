@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Transaction.css">
+    <title>TRANSACTION</title>
+</head>
+
+<body>
+    <div class="up">
+        <form class="BOX" action="Transaction.php" method="POST">
+            <div class="container-fluid" id="box">
+                <!--Sender List-->
+                <div class="fr">
+                    <label for="From-option" class="form-label" style="display: flex;justify-content: center;">FROM</label>
+                    <div class="f"> <input class="form-control" list="datalistOptions" id="exampleDataList" autocomplete="off" placeholder="Select Sender Account" name="from">
+                        <datalist id="datalistOptions">
+                        <option value="Hitesh">Hitesh
+                        <option value="Jaya">
+                        <option value="Mihir">
+                        <option value="Sufiya">
+                        <option value="Yunita">
+                        <option value="Naman">
+                        <option value="Veer">
+                        <option value="Faiz">
+                        <option value="Jacob">
+                        <option value="Konan"></option>
+                    </datalist>
+                    </div>
+                </div>
+                <!--Receiver List-->
+                <div class="to">
+                    <label for="From-option" class="form-label" style="display: flex;justify-content: center;">TO</label>
+                    <div class="t"><input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Select Beneficiary Account" autocomplete="off" style="display: flex;justify-content: center;" name="to">
+                        <datalist id="datalistOptions">
+                        <option value="Hitesh">
+                        <option value="Jaya">
+                        <option value="Mihir">
+                        <option value="Sufiya">
+                        <option value="Yunita">
+                        <option value="Naman">
+                        <option value="Veer">
+                        <option value="Faiz">
+                        <option value="Jacob">
+                        <option value="Konan"></option>
+                    </datalist>
+                    </div>
+                </div>
+                <!--AMOUNT-->
+                <div class="amt">
+                    <label for="From-option" class="form-label" style="display: flex;justify-content: center;">AMOUNT</label>
+                    <div class="t">
+                        <input type="text" class="form-control " list="datalistOptions " id="exampleDataList " autocomplete="off" placeholder="Enter Amount " style="display: flex;justify-content: center; " name="amt">
+                    </div>
+                </div>
+                <!--Transfer Button-->
+                <div class="b ">
+                    <button type="button " class="btn btn-light " id="transfer-button" name="transfer">Transfer</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="home-btn">
+        <a href="index1.html">
+            <button type="button" class="btn btn-dark">HOME</button></a>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
+</body>
+
+</html>

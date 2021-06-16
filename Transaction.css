@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#box {
+    padding-top: 5vh;
+    display: inline-flexbox;
+    height: 60vh;
+    width: 50vw;
+    background-color: #3c603d;
+    border: 6px solid #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #3C403d
+}
+
+.form-control {
+    width: 40vw;
+}
+
+.form-label {
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+}
+
+#transfer-button {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.fr,
+to {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.amt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.a {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.b {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.f {
+    display: flex;
+    justify-content: center;
+}
+
+.t {
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.BOX {
+    padding-top: 20vh;
+}
